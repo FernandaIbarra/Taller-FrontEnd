@@ -1,9 +1,9 @@
 {
     "app": {
-        "title": "Welcome to my Portfolio Webpage"
+        "title": "M.Fernanda's Portfolio"
     },
     "landing": {
-        "title": "Welcome to my Portfolio"
+        "title": "M.Fernanda's Portfolio"
     },
     "loader" : {
         "text": "loading..."

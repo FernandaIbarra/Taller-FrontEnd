@@ -66,7 +66,7 @@ const Wrapper = styled.div`
   grid-template-rows: auto auto;
   place-items: center;
   row-gap: 30px;
-  min-width: 300px;
+  min-width: 350px;
 
   @media (prefers-color-scheme: dark) {
     ${themes.dark.card};

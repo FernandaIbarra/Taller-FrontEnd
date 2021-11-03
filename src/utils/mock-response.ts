@@ -4,7 +4,7 @@ import { Project } from "../model/project";
 
 export const mockLogin = (userName: string, password: string) => new Promise<TokenResponse>(function (resolve, rejected) {
     setTimeout(() => {
-        if (userName === "user@threepoints.com" && password === "patata") {
+        if (userName === "mafernandai05917@gmail.com" && password === "blackCat91") {
             resolve(JSON.parse(
                 `{
                  "access_token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOnsidXNlcklkIjo2NjYsInJvbGUiOiJhZG1pbiIsInVzZXJOYW1lIjoiYWRtaW4iLCJkaXNwbGF5TmFtZSI6ImFkbWluIn0sImlhdCI6MTYwMTAyNzU1MywibmJmIjoxNjAxMDI3NTUzLCJleHAiOjE2MDExMTM5NTN9.vHgVtxKGmwDDLLVuT63UBkP8xe4a9hH0B3kkCsAh7K8",
@@ -35,11 +35,11 @@ export const mockAboutme = () => new Promise<AboutMe>(function (resolve, rejecte
         resolve(JSON.parse(
             `{
             "id":"12389asdfasf8",
-            "name":"Lucas Fernández Aragón",
-            "birthday":765817712000,
-            "nationality":"Spain",
-            "job":"Red Hat",
-            "github":"https://github.com/lucferbux"
+            "name":"Maria Fernanda Ibarra",
+            "birthday":	"5/09/1991",
+            "nationality":"Costa Rica",
+            "job":"Full Stack Developer",
+            "github":"https://github.com/FernandaIbarra"
             }`
         ));
     }, 500);
@@ -52,75 +52,39 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
             `[
                 {
                 "id":"12349as8df90",
-                "title":"React",
+                "title":"Mobile Social Media app React",
                 "description":"React es el Framework web basado en componentes de Facebook. Cuenta con una curva de aprendizaje corta y mucha flexibilidad",
                 "version":"17.0.1",
-                "link":"https://reactjs.org/docs/hello-world.html",
-                "tag":"JavaScript, Typescript, React",
+                "link":"https://github.com/FernandaIbarra/react-mobile-app",
+                "tag":"JavaScript, React",
                 "timestamp":"765817712000"
                 },
                 {
                 "id":"789asdfas89",
-                "title":"Create React App",
+                "title":"Custom banner",
                 "description":"Toolchain para la creación de proyectos basados en React, contiene lo báisco para crear proyectos basados en single-page apps",
                 "version":"4.0.3",
-                "link":"https://create-react-app.dev",
-                "tag":"Toolchain, React, Bootstraping",
+                "link":"https://github.com/FernandaIbarra/custom-banner",
+                "tag":"JavaScript, Bootstraping",
                 "timestamp":"765817712001"
                 },
                 {
-                "id":"56765asdfasdf8",
-                "title":"Styled components",
-                "description":"Librería que permite usar template literals y css para crear estilos en componente con JavaScript",
-                "version":"5.2.1",
-                "link":"https://styled-components.com/docs",
-                "tag":"CSS, JavaScript, Babel",
-                "timestamp":"765817712002"
-                },
-                {
-                "id":"56765asdfasdf8",
-                "title":"React i18next",
-                "description":"Internacionalización de nuestro proyecto en React.",
-                "version":"19.9.2",
-                "link":"https://react.i18next.com",
-                "tag":"JavaScript, i18n, React",
-                "timestamp":"765817712003"
-                },
-                {
                 "id":"25634iuoasdf8",
-                "title":"React Lottie",
+                "title":"Studio Ghibli app",
                 "description":"Animaciones en alta calidad que cuentan con distintos tipos de reproducción.",
                 "version":"1.2.3",
-                "link":"https://airbnb.design/lottie/",
-                "tag":"Animation, React, Aribnb",
+                "link":"https://github.com/FernandaIbarra/StudioGhibliApp-",
+                "tag":"Angular, TypeScript",
                 "timestamp":"765817712004"
                 },
                 {
                 "id":"7890asdf890",
-                "title":"React Router",
+                "title":"MathApp",
                 "description":"Navegación entre páginas dentro de nuestra web app.",
                 "version":"5.2.0",
-                "link":"https://reactrouter.com/web/guides/quick-start",
-                "tag":"Navigation, routing",
+                "link":"https://github.com/FernandaIbarra/MathAppTest",
+                "tag":"C#, .NET",
                 "timestamp":"765817712005"
-                },
-                {
-                "id":"7890asdf890",
-                "title":"Swagger",
-                "description":"Herramienta para creación de especificaciones OpenAPI",
-                "version":"3.0,2",
-                "link":"https://swagger.io",
-                "tag":"API, OpenAPI",
-                "timestamp":"765817712006"
-                },
-                {
-                "id":"7890asdf890",
-                "title":"Figma",
-                "description":"Herramienta de diseño vectorial y prototipado",
-                "version":"-",
-                "link":"https://www.figma.com/proto/3e43h8TrzwpjfKwXvFxZoP/Taller?page-id=144%3A51&node-id=308%3A1187&viewport=254%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=147%3A3",
-                "tag":"Vector, UX, UI",
-                "timestamp":"765817712007"
                 }
             ]`
         ));

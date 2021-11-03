@@ -2,7 +2,7 @@ export const themes = {
   light: {
     text1: "black",
     text2: "rgba(0,0,0,0.7)",
-    primary: `#401587`,
+    primary: `#3B3355`,
     secondary: "#87FDDE",
     backgroundColor: `#f2f6ff`,
     backgroundForm: `#e0e7f7`,
