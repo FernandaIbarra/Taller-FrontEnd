@@ -28,5 +28,16 @@
         "occupation": "Occupation",
         "company": "Company",
         "github": "Link"
+    },
+    "projectInput": {
+        "err_usr_pass": "Please fill missing information",
+        "err_inv_lgn": "Invalid project",
+        "tittle_placeholder": "Project Tittle",
+        "description_placeholder": "Description",
+        "tags_placeholder": "Tags",
+        "version_placeholder": "Version",
+        "button_post": "Post",
+        "button_delete": "Delete",
+        "projectPannel_title": "Project Input"
     }
 }

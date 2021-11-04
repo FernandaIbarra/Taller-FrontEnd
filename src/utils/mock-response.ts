@@ -53,7 +53,7 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
                 {
                 "id":"12349as8df90",
                 "title":"Mobile Social Media app React",
-                "description":"React es el Framework web basado en componentes de Facebook. Cuenta con una curva de aprendizaje corta y mucha flexibilidad",
+                "description":"React app, using Javascript and react router",
                 "version":"17.0.1",
                 "link":"https://github.com/FernandaIbarra/react-mobile-app",
                 "tag":"JavaScript, React",
@@ -62,7 +62,7 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
                 {
                 "id":"789asdfas89",
                 "title":"Custom banner",
-                "description":"Toolchain para la creación de proyectos basados en React, contiene lo báisco para crear proyectos basados en single-page apps",
+                "description":"Vanilla js project to create a custom image",
                 "version":"4.0.3",
                 "link":"https://github.com/FernandaIbarra/custom-banner",
                 "tag":"JavaScript, Bootstraping",
@@ -71,7 +71,7 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
                 {
                 "id":"25634iuoasdf8",
                 "title":"Studio Ghibli app",
-                "description":"Animaciones en alta calidad que cuentan con distintos tipos de reproducción.",
+                "description":"Angular app consuming Studio Ghobli public API.",
                 "version":"1.2.3",
                 "link":"https://github.com/FernandaIbarra/StudioGhibliApp-",
                 "tag":"Angular, TypeScript",
@@ -80,7 +80,7 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
                 {
                 "id":"7890asdf890",
                 "title":"MathApp",
-                "description":"Navegación entre páginas dentro de nuestra web app.",
+                "description":"C# console application.",
                 "version":"5.2.0",
                 "link":"https://github.com/FernandaIbarra/MathAppTest",
                 "tag":"C#, .NET",
@@ -89,5 +89,4 @@ export const mockProjects = () => new Promise<Project[]>(function (resolve, reje
             ]`
         ));
     }, 500);
-
 });

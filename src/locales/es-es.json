@@ -28,5 +28,16 @@
         "occupation": "Ocupación",
         "company": "Empresa",
         "github": "Link"
+    },
+    "projectInput": {
+        "err_usr_pass": "Username and password must not be null",
+        "err_inv_lgn": "Invalid login",
+        "tittle_placeholder": "Título del proyecto",
+        "description_placeholder": "Descripción",
+        "tags_placeholder": "Tags",
+        "version_placeholder": "Persión",
+        "button_post": "Post",
+        "button_delete": "Borrar",
+        "projectPannel_title": "Agregar Proyecto"
     }
 }
